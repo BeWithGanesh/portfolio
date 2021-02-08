@@ -1,0 +1,264 @@
+body, html {
+
+scroll-behavior: smooth;
+text-decoration: none;
+background-color: #eeeeee;
+color:#222831;
+font-family: 'Baloo 2', cursive;
+font-size: 20px;
+
+}
+
+
+
+.main{
+  color:#ffd369;  
+  font-family: 'Press Start 2P', cursive;
+  
+}
+
+.vl {
+  border-left: 6px solid #ffd369;
+  height: 40px;
+  font-size: 30px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.big-block{
+  font-size: 35px;
+  top: 190px;
+  left: 130px;
+
+}
+
+.mid-block{
+
+  font-size: 30px;
+  top: 150px;
+  left: 90px;
+
+}
+
+.small-block{
+ 
+  font-size: 15px;
+  top: 85px;
+  left: 40px;
+
+}
+
+.xl-block{
+
+  font-size: 45px;
+  top: 300px;
+  left: 200px;
+
+}
+
+.contain{
+  position: relative;
+  text-align: center;
+  color: #ffd369
+}
+
+.top-left{
+
+  position: absolute;
+
+}
+
+a{
+    color: #ffd369!important;
+
+}
+a:hover{
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+width: 0px;
+background: transparent; /* make scrollbar transparent */
+}
+
+
+
+/* nav */
+
+.navbar-brand{
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.navbar-custom { 
+    background-color:#222831; 
+}
+
+.nav-item > a:hover {
+    color: #eeeeee!important;
+  }
+  .navbar-brand:hover {
+    color: #eeeeee!important;
+  }
+
+  .navbar-nav > li{
+    padding-left:30px;
+    padding-right:10px;
+  }
+
+
+  .custom-toggler.navbar-toggler { 
+    border-color: #ffd369; 
+} 
+/* Setting the stroke to green using rgb values (0, 128, 0) */ 
+  
+.custom-toggler .navbar-toggler-icon { 
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 211, 105, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+/* about */
+
+.abt{
+   
+    padding: 30px;
+}
+
+
+
+/* skills */
+
+.skl{
+    padding: 30px;
+}
+
+
+
+  /* works */
+
+  .gly{
+      padding: 50px;
+      background-color:#eeeeee;
+
+  }
+ 
+.img{
+    max-width: 30px;
+    max-height: 20%;
+    
+}
+
+.inner{
+    overflow: hidden;
+    
+}
+
+.inner img{
+	transition: all 1s ease;
+}
+
+.inner:hover img{
+	transform: scale(1.2);
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.card-text{
+  font-size: 15px;
+  font-style: italic;
+}
+.card-title{
+  font-size: 25px;
+}
+
+  /* footer */
+
+  
+.fot{
+    background-color:#222831; 
+    color: #ffd369;
+    padding: 30px;
+  }
+  
+  .fot a:hover{
+    color: #eeeeee;
+  }
+  
+  .fa {
+    padding: 15px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #393e46;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #393e46;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #393e46;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #393e46;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #393e46;;
+    color: white;
+  }
+  .fa-github {
+     
+    background:#393e46;;
+    color: white;
+  }
+
+
+  .led-green {
+    width: 12px;
+    height: 12px;
+    background-color: #66ff00;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #66FF00 0 2px 12px;
+  }
+
+  .led-red {
+    
+    width: 12px;
+    height: 12px;
+    background-color: #940;
+    border-radius: 50%;
+    box-shadow: #000 0 -1px 7px 1px, inset #600 0 -1px 9px, #F00 0 2px 12px;
+}
+
+  .lit{
+
+    position: relative;
+    left: 20px;
+    top: -7px;
+    width: 100px;
+  }
