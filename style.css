@@ -180,6 +180,9 @@ background: transparent; /* make scrollbar transparent */
   font-size: 25px;
 }
 
+.card{
+  margin-bottom: 10px;
+}
   /* footer */
 
   
